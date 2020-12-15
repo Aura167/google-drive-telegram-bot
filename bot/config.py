@@ -6,8 +6,7 @@ class config:
     SUDO_USERS = "" # Sepearted by space.
     SUPPORT_CHAT_LINK = ""
     DOWNLOAD_DIRECTORY = "./downloads/"
-    FINISHED_PROGRESS_STR = ""
-    UNFINISHED_PROGRESS_STR = ""
+    
 
 class BotCommands:
   Download = ['download', 'dl']

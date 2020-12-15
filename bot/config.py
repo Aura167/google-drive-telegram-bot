@@ -1,5 +1,5 @@
 class config:
-    BOT_TOKEN = "1457777994:AAGDHqwGjzzzfwAwj8eu8KNml0WXLrvc2b4"
+    BOT_TOKEN = "1410282630:AAHDLz3IYi4x3XYeJ7YEAuDZNXQFk4B_bFc "
     APP_ID = "2206386"
     API_HASH = "cbb279159c065dbb3ab1e3160b004518"
     DATABASE_URL = "postgres://hpomvjzrzwkvku:f89512550f846521ad1ff6b7b783233fe7380e91c87d5a1f4d628fe0d7d3b24b@ec2-3-216-92-193.compute-1.amazonaws.com:5432/d8sqn3m4sdt9ut"
@@ -19,8 +19,8 @@ class BotCommands:
   Ytdl = ['ytdl']
 
 class Messages:
-    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help
-                     **Developed by @Tanveer**__"
+    START_MSG = "**Hi there {}.**\n__I'm Google Drive Uploader Bot.You can use me to upload any file / video to Google Drive from direct link or Telegram Files.__\n__You can know more from /help **Developed by @Tanveer**__"
+                     
 
     HELP_MSG = [
         ".",

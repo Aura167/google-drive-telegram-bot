@@ -6,7 +6,7 @@ from pySmartDL import SmartDL
 from urllib.error import HTTPError
 from youtube_dl import DownloadError
 from bot import DOWNLOAD_DIRECTORY, LOGGER
-
+from bot import UNFINISHED_PROGRESS_STR, FINISHED_PROGRESS_STR
 
 def download_file(url, dl_path):
   try:
